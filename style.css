@@ -1,0 +1,92 @@
+body {
+  background-color: #d5e8e4;
+  font-family: Verdana, Arial, sans-serif;
+  margin: 0;
+  padding: 10px;
+}
+
+#container {
+  width: 900px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: white;
+  overflow: auto;
+}
+
+#header {
+  background-color: #a8eeee;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+#header h1 {
+  color: #1a9e9e;
+  font-weight: normal;
+  font-size: 36px;
+  margin: 0;
+}
+
+#header p {
+  color: #1a9e9e;
+  font-size: 20px;
+  margin: 0;
+}
+
+#friends {
+  float: left;
+  width: 190px;
+  background-color: #3de0d0;
+  border: 8px solid #008080;
+  padding: 10px;
+}
+
+#friends h2 {
+  color: #008080;
+  font-weight: normal;
+  font-size: 30px;
+  text-align: center;
+}
+
+#friends a {
+  color: pink;
+  text-decoration: none;
+}
+
+#friends a.current {
+  color: white;
+  font-weight: bold;
+}
+
+#entries {
+  margin-left: 230px;
+}
+
+.entry {
+  background-color: #e6ffff;
+  border: 6px solid #b8e8e8;
+  padding: 10px;
+  margin-bottom: 10px;
+  overflow: auto;
+}
+
+.entry h2 {
+  color: #1a9e9e;
+  font-weight: normal;
+  font-size: 28px;
+  margin-top: 0;
+}
+
+.entry p {
+  color: #c08080;
+  text-align: justify;
+}
+
+.date {
+  border-bottom: 3px dashed blue;
+}
+
+.pic {
+  float: right;
+  margin-left: 10px;
+}
